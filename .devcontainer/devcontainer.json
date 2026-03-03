@@ -1,0 +1,22 @@
+{
+  "name": "Basic Dev Environment",
+  "image": "mcr.microsoft.com/vscode/devcontainers/base:debian",
+  "features": {
+    // Adds Python 3 and tools
+    "ghcr.io/devcontainers/features/python:1": {
+      "version": "latest"
+    },
+    // Adds Node.js and npm
+    "ghcr.io/devcontainers/features/node:1": {
+      "version": "latest"
+    },
+    // Adds the .NET SDK
+    "ghcr.io/devcontainers/features/dotnet:1": {
+      "version": "latest"
+    },
+    // Adds the GitHub CLI
+    "ghcr.io/devcontainers/features/github-cli:1": {
+      "version": "latest"
+    }
+  }
+}
